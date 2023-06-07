@@ -6,7 +6,7 @@ let testData = null;
 
 function generateData() {
   const dataEndTs = Date.now();
-  const dataEntries = 10 * 24 * 60 * 60; // 1 month of data
+  const dataEntries = 10 * 24 * 60 * 60; // 10 days of data
   const tsIncrement = 1000; // entry for each 1 sec
   const dataStartTs = dataEndTs - tsIncrement * dataEntries;
   const data = [];
